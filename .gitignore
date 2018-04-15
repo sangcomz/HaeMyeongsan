@@ -1,7 +1,3 @@
-backend/.database/*
-!backend/.database/person-data.json
-!backend/.database/team-data.json
-!backend/.database/places-data.json
 .idea/*
 !.idea/runConfigurations
 !.idea/runConfigurations/*
@@ -10,6 +6,8 @@ backend/.database/*
 
 .gradle
 build
+
+out
 
 *.versionsBackup
 *.releaseBackup
