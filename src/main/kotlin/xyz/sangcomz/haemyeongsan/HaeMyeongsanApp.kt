@@ -51,7 +51,8 @@ class HaeMyeongsanApp {
 
             post("/") {
                 val thought = call.receive<Thought>()
-                println("thought :::: ${thought.date}")
+                println("thought id :::: ${thought.id}")
+                println("thought userId :::: ${thought.userId}")
                 call.respondText("Hello, World! Post")
             }
         }
