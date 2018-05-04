@@ -1,8 +1,7 @@
 .idea/*
-!.idea/runConfigurations
-!.idea/runConfigurations/*
-!.idea/vcs.xml
 *.iml
+
+
 
 .gradle
 build
