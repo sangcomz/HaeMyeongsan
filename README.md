@@ -1,0 +1,3 @@
+# HaeMyeongsan
+
+### `./gradlew run`
